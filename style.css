@@ -1,0 +1,111 @@
+body {
+    background-image: url("./images/font.jpg");
+    background-size: cover;        
+    background-position: center;   
+    background-repeat: no-repeat;  
+    min-height: 100vh;             
+    margin: 0;                     
+}
+
+.main {
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900; 
+   font-size: 48px;
+   text-transform: uppercase;
+   color: rgba(17, 17, 17, 0.699);
+}
+
+.main-inf {
+   text-align: left;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 600; 
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   display: flex;            
+   max-width: 1300px;
+   width: 90%;
+   margin: 40px auto;
+   justify-content: flex-start; 
+   gap: 30px;                
+   align-items: flex-start;
+}
+
+.text-content {
+   margin: 0;
+}
+
+.photo-column {
+   display: flex;
+   flex-direction: column;    
+   gap: 20px;                 
+   width: 25%;                
+   flex-shrink: 0;
+}
+
+.bratiki {
+    border-radius: 4%;
+    width: 100%;              
+    height: auto;
+}
+
+.bratiki-long {
+    border-radius: 4%;
+    width: 25%;                
+    height: auto;
+    flex-shrink: 0;
+    align-self: center;        
+}
+
+/* Твої кольорові спани */
+.hello {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900; font-size: 35px;
+   text-transform: uppercase;
+   color: rgba(234, 14, 14, 0.699);
+}
+.name {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900; font-size: 30px;
+   text-transform: uppercase;
+   color: rgba(0, 255, 4, 0.699);
+}
+.fishing {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900; font-size: 30px;
+   text-transform: uppercase;
+   color: rgba(52, 105, 238, 0.683);
+}
+.fisher {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900; font-size: 30px;
+   text-transform: uppercase;
+   color: rgb(255, 164, 6);
+}
+.moment {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900; font-size: 30px;
+   text-transform: uppercase;
+   color: rgb(38, 213, 240);
+}
+.best-fr {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900; font-size: 30px;
+   text-transform: uppercase;
+   color: rgb(255, 251, 16);
+}
+.sister {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 900; font-size: 30px;
+   text-transform: uppercase;
+   color: rgb(214, 38, 241);
+}
+.my-btn{
+    border-radius: 5%;
+    background-color: beige;
+}
+body.pashalko {
+   background-image:url("./images/pashalko.jpg") ;
+   background-size: contain;       
+   background-position: center;
+}
